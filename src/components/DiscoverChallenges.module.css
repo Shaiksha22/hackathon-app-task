@@ -1,0 +1,45 @@
+body{
+  background-color: #659fb6 !important;
+}
+
+.sectionBackground {
+  background-color: #003145; /* Custom light color */
+}
+
+.header {
+  background-color: #002a3b; /* Custom dark color */
+}
+
+.filterForm {
+  width: 300px; /* Adjust width for better visibility */
+  z-index: 1000; /* Ensure filter form appears above other elements */
+}
+
+.cardsContainer {
+  margin-top: 16px; /* Margin for better spacing */
+}
+
+
+/* ExploreChallenges.css */
+
+/* Hover effect for cards */
+
+.cardHover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardHover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.btn-light:hover {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  color: #fff; 
+}
+

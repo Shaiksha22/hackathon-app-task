@@ -1,0 +1,39 @@
+
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-warning:hover {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.btn-success:hover {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.btn-danger:hover {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
